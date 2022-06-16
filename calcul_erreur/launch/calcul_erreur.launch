@@ -1,12 +1,16 @@
  <launch>
 	<node pkg="calcul_erreur" name="calculEr" type="calculErreur.py">
 		<param name="orange_red" type="double" value="255"/>
-		<param name="orange_green" type="double" value="120"/>
-		<param name="orange_blue" type="double" value="80"/>
+		<param name="orange_green" type="double" value="105"/>
+		<param name="orange_blue" type="double" value="70"/>
 		
-		<param name="blue_red" type="double" value="50"/>
-		<param name="blue_green" type="double" value="140"/>
-		<param name="blue_blue" type="double" value="220"/>
+		<param name="dark_blue_red" type="double" value="50"/>
+		<param name="dark_blue_green" type="double" value="80"/>
+		<param name="dark_blue_blue" type="double" value="120"/>
+
+		<param name="light_blue_red" type="double" value="85"/>
+		<param name="light_blue_green" type="double" value="200"/>
+		<param name="light_blue_blue" type="double" value="250"/>
 
 		<param name="white_avg" type="double" value="255"/>
 		<param name="black_avg" type="double" value="80"/>
